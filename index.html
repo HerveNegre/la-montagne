@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La montagne</title>
+    <link rel="stylesheet" href="style.css">
+
+     <!-- police d'ecriture -->
+     <link rel="preconnect" href="https://fonts.gstatic.com">
+     <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@1,300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Barre de navigation -->
+    <nav>
+        <div class="item-logo">
+            <img src="src/logo.jpg" alt="logo montagne" class="logoMontagne">
+        </div>
+
+        <ul class="list-nav">
+            <li class="item-nav">
+                <a href="#home">Accueil</a>
+            </li>
+            <li class="item-nav">
+                <a href="#do">Quoi faire ?</a>
+            </li>
+            <li class="item-nav">
+                <a href="#price">Prix</a>
+            </li>
+            <li class="item-nav">
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+
+        <img src="src/buttonMenu.svg" alt="boutton menu navigation" class="buttonMenu">
+    </nav>
+
+    <!-- Accueil -->
+    <div class="accueil" id="home">
+        <h1 class="titre">Découvrez la montagne</h1>
+        <p class="sous-titre"> Comme vous ne l'avez jamais fait !</p>
+        <a href="#do" class="btn-accueil">en savoir plus</a>
+    </div>
+
+    <!-- Section quoi faire ? -->
+    <section class="do" id="do">
+        <h2 class="titreRandos">Quoi faire ?</h2>
+        
+        <div class="randos bloc partL bloc1">
+            
+            <div class="bloc-txt-left">
+                <h3>Randonnées</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    A nemo, nesciunt quidem error, blanditiis porro dignissimos
+                    quia, modi consequatur autem soluta dolorum cupiditate reiciendis
+                    molestiae. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Quae, distinctio. Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Animi, dolor!
+                </p>
+                <button class="btn-partL"><a href="#price">+ d'infos</a></button>
+                <img src="src/randos.jpeg" alt="un randonneur" class="img-grid1 imgRando">
+            </div>
+        
+        </div>
+
+        <div class="vtt bloc partD bloc2">
+            
+            <div class="bloc-txt-left">
+                <h3>VTT</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    A nemo, nesciunt quidem error, blanditiis porro dignissimos
+                    quia, modi consequatur autem soluta dolorum cupiditate reiciendis
+                    molestiae. Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Ex, placeat. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Omnis veniam cupiditate illo placeat ut libero. Deserunt, fugiat nostrum?
+                    Adipisci, exercitationem!
+                </p>
+                <button class="btn-partL"><a href="#price">+ d'infos</a></button>
+            </div>
+            <img src="src/vtt.jpeg" alt="un vtt" class="img-grid2 imgVtt">
+        
+        </div>
+
+        <div class="ski bloc partL bloc3">
+            
+            <div class="bloc-txt-left">
+                <h3>Ski</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    A nemo, nesciunt quidem error, blanditiis porro dignissimos
+                    quia, modi consequatur autem soluta dolorum cupiditate reiciendis
+                    molestiae. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </p>
+                <button class="btn-partL"><a href="#price">+ d'infos</a></button>
+            </div>
+            <img src="src/ski.png" alt="ski" class="img-grid3 imgSki">
+        
+        </div>
+
+        <div class="escalade bloc partD bloc4">
+            
+            <div class="bloc-txt-left">
+                <h3>Escalade</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    A nemo, nesciunt quidem error, blanditiis porro dignissimos
+                    quia, modi consequatur autem soluta dolorum cupiditate reiciendis
+                    molestiae. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, dignissimos!
+                </p>
+                <button class="btn-partL"><a href="#price">+ d'infos</a></button>
+            </div>
+            <img src="src/escalade.jpeg" alt="escalade" class="img-grid4 imgClimbing">
+        
+        </div>
+
+    </section>
+
+    <!--section parallax-->
+    <section class="parallax"></section>
+
+    <!--section prix -->
+    <section class="prix" id="price">
+        <h3 class="titrePrix">Franchissez le pas !</h3>
+
+        <div class="container-prix">
+            <div class="leftAnim randosPrix">
+                <h4>Randonnées</h4>
+
+                <p>Col de la Moulinette</p>
+                <p>Lac blanc</p>
+                <p>Saint Joseph</p>
+                <p>Plateau des marmottes</p>
+                <p>La patte du Loup</p>
+                <p>Le Plo de Saul</p>
+
+                <a href="#contact">
+                    Réservez un guide pour <span>100€</span>
+                </a>
+            </div>
+
+            <div class="leftAnim vttPrix">
+                <h4>VTT</h4>
+
+                <p>Balades/Randonnées en Vtt</p>
+                <p>Vtt de descente</p>
+                
+                <a href="#contact">
+                    Réservez à partir de <span>80€</span>
+                </a>
+            </div>
+
+            <div class="rightAnim skiPrix">
+                <h4>Ski</h4>
+
+                <p>Forfaits</p>
+                <a href="#contact">
+                    Réservez votre forfait dès <span>20€</span>
+                </a>
+
+                <p>Location de ski</p>
+                <a href="#contact">
+                    Réservez votre materiel !
+                </a>
+
+                <p>Cours ESF</p>
+                <a href="#contact">
+                    Réservez vos cours à partir de <span>50€</span>
+                </a>
+            </div>
+
+            <div class="rightAnim escaladePrix">
+                <h4>Escalades</h4>
+                
+                <p>Cours EEF</p>
+                <a href="#contact">
+                    Les meilleurs profs dès <span>25€</span>
+                </a>
+
+                <p>Equipements</p>
+                <a href="#contact">
+                    Votre materiel ici !
+                </a>
+
+                <p>Forfaits</p>
+                <a href="#contact">
+                    Réservez votre forfait de <span>20€</span>
+                </a>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Section Contact -->
+    <section class="contact" id="contact">
+        <h2 class="titreContact">Contactez nous !</h2>
+
+        <div class="container-form">
+            
+            <form class="formBloc">
+
+                <div class="form-group emailContact">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" maxlength="12" required>
+                </div>
+
+                <div class="form-group nomContact">
+                    <label for="lastName">Nom</label>
+                    <input type="text" id="lastName" maxlength="12" required>
+                </div>
+
+                <div class="form-group messageContact">
+                    <textarea type="text" placeholder="Votre message" required></textarea>
+                </div>
+
+                <div class="form-group boutonContact">
+                    <button>Envoyer</button>
+                </div>
+
+            </form>
+
+        </div>
+
+    </section>
+
+    <footer> &copy; </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/ScrollMagic.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/plugins/animation.gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/plugins/debug.addIndicators.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
